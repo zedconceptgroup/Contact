@@ -1,26 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .contact-container {
     text-align: center;
-    background: #ffffff;  /* Light mode default */
+    background: #ffffff;  /* Default Light Mode */
     color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     margin: 20px auto;
-    width: 80%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 450px;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
-/* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
     .contact-container {
-        background: #222;   /* Darker background */
-        color: #f1f1f1;     /* Light text for contrast */
-        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        background: #222;
+        color: #f1f1f1;
+        box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
     }
 
     .contact-container a {
-        color: #4DB8FF; /* Lighter blue for better contrast */
+        color: #4DB8FF;
     }
 
     .contact-container a:hover {
@@ -30,26 +32,33 @@
 }
 
 .contact-container h2 {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
 .contact-container p {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-container .icon {
-    font-size: 20px;
-    margin-right: 8px;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #007BFF;
 }
 
 .contact-container a {
     color: #007BFF;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
 }
 
 .contact-container a:hover {
     text-decoration: underline;
+    color: #0056b3;
 }
