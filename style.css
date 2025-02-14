@@ -2,9 +2,9 @@
 
 .contact-container {
     text-align: center;
-    background: #ffffff;  /* Default Light Mode */
+    background: #ffffff;
     color: #333;
-    padding: 25px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     margin: 20px auto;
@@ -16,7 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
     .contact-container {
-        background: #222;
+        background: #1e1e1e;
         color: #f1f1f1;
         box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
     }
@@ -32,14 +32,14 @@
 }
 
 .contact-container h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .contact-container p {
     font-size: 18px;
-    margin: 12px 0;
+    margin: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +48,9 @@
 .contact-container .icon {
     font-size: 22px;
     margin-right: 10px;
-    color: #007BFF;
 }
 
 .contact-container a {
-    color: #007BFF;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
@@ -60,5 +58,4 @@
 
 .contact-container a:hover {
     text-decoration: underline;
-    color: #0056b3;
 }
